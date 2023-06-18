@@ -22,7 +22,7 @@
 
 # app.baseURL = ''
 # If you have trouble with `.`, you could also use `_`.
-# app_baseURL = ''
+ app.baseURL = 'http://localhost/'
 # app.forceGlobalSecureRequests = false
 # app.CSPEnabled = false
 
@@ -30,13 +30,13 @@
 # DATABASE
 #--------------------------------------------------------------------
 
-# database.default.hostname = localhost
-# database.default.database = ci4
-# database.default.username = root
-# database.default.password = root
-# database.default.DBDriver = MySQLi
-# database.default.DBPrefix =
-# database.default.port = 3306
+ database.default.hostname = localhost
+ database.default.database = inventori.sql
+ database.default.username = root
+ database.default.password = root
+ database.default.DBDriver = MySQLi
+ database.default.DBPrefix =
+ database.default.port = 3306
 
 # database.tests.hostname = localhost
 # database.tests.database = ci4_test
@@ -89,7 +89,7 @@
 # ENCRYPTION
 #--------------------------------------------------------------------
 
-# encryption.key =
+ encryption.key = random_string_here
 # encryption.driver = OpenSSL
 # encryption.blockSize = 16
 # encryption.digest = SHA512
@@ -108,7 +108,7 @@
 # SECURITY
 #--------------------------------------------------------------------
 
-# security.csrfProtection = 'cookie'
+ security.csrfProtection = 'true'
 # security.tokenRandomize = false
 # security.tokenName = 'csrf_token_name'
 # security.headerName = 'X-CSRF-TOKEN'
@@ -122,9 +122,9 @@
 # SESSION
 #--------------------------------------------------------------------
 
-# session.driver = 'CodeIgniter\Session\Handlers\FileHandler'
-# session.cookieName = 'ci_session'
-# session.expiration = 7200
+ session.driver = 'CodeIgniter\Session\Handlers\FileHandler'
+ session.cookieName = 'ci_session'
+ session.expiration = 7200
 # session.savePath = null
 # session.matchIP = false
 # session.timeToUpdate = 300
