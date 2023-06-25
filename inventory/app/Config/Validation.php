@@ -25,6 +25,7 @@ class Validation extends BaseConfig
         FormatRules::class,
         FileRules::class,
         CreditCardRules::class,
+        LoginRules::class, // Tambahkan aturan validasi khusus di sini
     ];
 
     /**
