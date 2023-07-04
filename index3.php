@@ -114,7 +114,7 @@ mysqli_report (MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
       </li>
     
     
-      <!-- <li class="nav-item active">
+      <li class="nav-item active">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseData" aria-expanded="true" aria-controls="collapseData">
           <i class="fas fa-fw fa-folder"></i>
           <span>Data Gudang</span>
@@ -129,7 +129,7 @@ mysqli_report (MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
            
           </div>
         </div>
-      </li> -->
+      </li>
     
   
     
