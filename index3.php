@@ -133,7 +133,7 @@ mysqli_report (MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
     
   
     
-      <!-- <li class="nav-item active">
+      <li class="nav-item active">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
           <i class="fas fa-fw fa-folder"></i>
           <span>Transaksi</span>
@@ -147,7 +147,7 @@ mysqli_report (MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
            
           </div>
         </div>
-      </li> -->
+      </li>
 
     
     
